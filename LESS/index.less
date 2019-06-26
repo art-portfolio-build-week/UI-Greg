@@ -1,0 +1,34 @@
+@import "./variables";
+@import "./mixins";
+@import "./footer";
+@import "./animations";
+@import "./components/Carousel/Carousel";
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  border: 5px solid @color-accent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  //.flex(none, center, column);
+  background-color: @color-background;
+  color: @color-primary;
+  font-family: "Lato", sans-serif;
+}
+
+@import "./components/TopBar/TopBar";
+@import "./components/Header/Header";
+@import "./components/Tabs/Tabs";
+@import "./components/Cards/Cards";

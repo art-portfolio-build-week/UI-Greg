@@ -1,0 +1,29 @@
+.header {
+  .flex(space-between, center);
+  background-color: @color-white;
+  background-image: url("http://www.kimripleyobrien.com/uploads/5/0/3/0/5030803/header_images/1490129468.jpg");
+  .border-bottom-grey();
+  .width-100();
+  //height: 120px;
+  //margin-top: 44px;
+  padding-bottom: 15px;
+  @media(min-width: 1920px){
+    width: 1920px;
+  } 
+  h1 {
+    font-size: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    flex: 8;
+    text-align: center;
+    color: @color-black;
+  }
+  span {
+    align-self: flex-end;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+}
+

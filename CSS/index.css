@@ -1,0 +1,378 @@
+.width-100 {
+  width: 100%;
+}
+.border-bottom-grey {
+  border-bottom: 2px solid gray;
+}
+/* .width-100 {
+  width: 100%;
+}
+ */
+footer {
+  width: 100%;
+  background: #171d21;
+}
+footer nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 2%;
+  font-size: 14px;
+}
+footer nav p {
+  color: white;
+  text-decoration: none;
+}
+.sign-in {
+  box-sizing: content-box;
+  width: 100px;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10px;
+  animation-name: background-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.sign-in-bottom {
+  box-sizing: content-box;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10px;
+  animation-name: background-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes background-color {
+  0% {
+    background-color: #FF2E2E;
+  }
+  16.7% {
+    background-color: #FFD400;
+  }
+  33.3% {
+    background-color: #48FF00;
+  }
+  50% {
+    background-color: #FFD400;
+  }
+  66.9% {
+    background-color: #48FF00;
+  }
+  83.4% {
+    background-color: #4586FF;
+  }
+  100% {
+    background-color: #B22EFF;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.slideContainer {
+  position: relative;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  border: 5px solid #405768;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f1f1f1;
+  color: #071622;
+  font-family: "Lato", sans-serif;
+}
+.top-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  flex-direction: row;
+  border-right: #405768;
+  height: 100px;
+  background-color: #171d21;
+}
+.top-bar .container {
+  width: 100%;
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  flex-direction: row;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 0 10px;
+}
+@media (min-width: 1920px) {
+  .top-bar .container {
+    width: 1920px;
+  }
+}
+.top-bar .container .container-left {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  font-size: 11px;
+}
+.top-bar .container .container-left span {
+  cursor: pointer;
+  margin-right: 10%;
+  font-size: 20px;
+  font-family: Lobster, cursive;
+  font-weight: bold;
+}
+.top-bar .container input {
+  border: 2px solid #262544;
+  border-radius: 15px;
+  background-color: #2d2d3a;
+  color: white;
+  font-size: 15px;
+  padding: 7px 0 0 0;
+  width: 125px;
+}
+.top-bar .container .container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex: 3;
+  font-size: 9px;
+}
+.top-bar .container .container-center span {
+  cursor: pointer;
+  margin-right: 10%;
+}
+.top-bar .container .container-center span:last-child {
+  margin-right: 0;
+}
+.top-bar .container .container-center span:hover {
+  text-decoration: underline;
+}
+.top-bar .container .container-right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  font-size: 11px;
+  font-weight: bold;
+}
+.top-bar .container .container-right span {
+  cursor: pointer;
+}
+.mask {
+  width: 35px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  background-image: url("http://www.kimripleyobrien.com/uploads/5/0/3/0/5030803/header_images/1490129468.jpg");
+  border-bottom: 2px solid gray;
+  width: 100%;
+  padding-bottom: 15px;
+}
+@media (min-width: 1920px) {
+  .header {
+    width: 1920px;
+  }
+}
+.header h1 {
+  font-size: 60px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  flex: 8;
+  text-align: center;
+  color: #171d21;
+}
+.header span {
+  align-self: flex-end;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.tabs {
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 47px;
+  background-color: #fff;
+}
+@media (min-width: 1920px) {
+  .tabs {
+    width: 1920px;
+  }
+}
+.tabs .topics {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+}
+.tabs .topics .title {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.tabs .topics .tab {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+  background-color: #071622;
+  border-radius: 25px;
+  margin: 0 5px;
+  padding: 2px 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tabs .topics .tab:hover {
+  text-decoration: underline;
+}
+.tabs .topics .active-tab {
+  background-color: #fff;
+  color: #071622;
+  border: 2px solid #071622;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+@media (min-width: 1920px) {
+  .cards-container {
+    width: 1920px;
+  }
+}
+.cards-container .card {
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  flex-direction: column;
+  background-color: #fff;
+  width: 380px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+.cards-container .card .headline {
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+}
+.cards-container .card .author {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.cards-container .card .author .img-container {
+  padding-right: 10px;
+  border-right: 1px solid lightgrey;
+  height: 40px;
+}
+.cards-container .card .author .img-container img {
+  width: 40px;
+}
+.cards-container .card .author span {
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
