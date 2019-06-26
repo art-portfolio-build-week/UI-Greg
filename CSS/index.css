@@ -172,7 +172,7 @@ body {
   align-items: none;
   flex-direction: row;
   border-right: #405768;
-  height: 44px;
+  height: 100px;
   background-color: #171d21;
 }
 .top-bar .container {
@@ -185,9 +185,9 @@ body {
   letter-spacing: 1px;
   padding: 0 10px;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1920px) {
   .top-bar .container {
-    width: 1280px;
+    width: 1920px;
   }
 }
 .top-bar .container .container-left {
@@ -255,9 +255,9 @@ body {
   width: 100%;
   padding-bottom: 15px;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1920px) {
   .header {
-    width: 1280px;
+    width: 1920px;
   }
 }
 .header h1 {
@@ -284,9 +284,9 @@ body {
   height: 47px;
   background-color: #fff;
 }
-@media (min-width: 1280px) {
+@media (min-width: 1920px) {
   .tabs {
-    width: 1280px;
+    width: 1920px;
   }
 }
 .tabs .topics {
@@ -332,9 +332,9 @@ body {
   margin-top: 16px;
   flex-wrap: wrap;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .cards-container {
-    width: 1200px;
+    width: 1920px;
   }
 }
 .cards-container .card {
