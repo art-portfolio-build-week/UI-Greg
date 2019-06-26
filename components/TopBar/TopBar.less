@@ -3,11 +3,11 @@
   .flex(center);
   position: fixed;
   height: 44px;
-  background-color: @lambda-times-color-primary;
+  background-color: @color-primary;
   .container {
     .width-100();
     .flex();
-    color: @lambda-times-color-white;
+    color: @color-white;
     letter-spacing: 1px;
     padding: 0 10px;
     @media (min-width: 1280px) {
@@ -19,17 +19,29 @@
       font-size: 11px;
       span {
         cursor: pointer;
-        margin-right: 25%;
+        margin-right: 10%;
+        font-size: 20px;
+        font-family: Lobster, cursive;
         font-weight: bold;
       }
+
     }
+    input{
+    border: 2px solid rgb(38, 37, 68);
+    border-radius: 15px;
+    background-color: rgb(45, 45, 58);
+    color: white;
+    font-size: 15px;
+    padding: 7px 0 0 0;
+    width: 125px;
+}
     .container-center {
       .flex(center, center);
       flex: 3;
       font-size: 9px;
       span {
         cursor: pointer;
-        margin-right: 5%;
+        margin-right: 10%;
         &:last-child {
           margin-right: 0;
         }

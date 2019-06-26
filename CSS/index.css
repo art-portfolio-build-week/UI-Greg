@@ -99,28 +99,11 @@ footer nav p {
   opacity: 1;
 }
 @font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v10/jizYRExUiTo99u79D0e0x8mN.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'PT Sans';
-  font-style: italic;
-  font-weight: 700;
-  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v10/jizdRExUiTo99u79D0e8fOydLxUY.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'PT Sans';
+  font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v10/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'PT Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v10/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
 }
 * {
   box-sizing: border-box;
@@ -137,7 +120,7 @@ body {
   flex-direction: column;
   background-color: #f1f1f1;
   color: #333;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 .top-bar {
   width: 100%;
@@ -174,8 +157,19 @@ body {
 }
 .top-bar .container .container-left span {
   cursor: pointer;
-  margin-right: 25%;
+  margin-right: 10%;
+  font-size: 20px;
+  font-family: Lobster, cursive;
   font-weight: bold;
+}
+.top-bar .container input {
+  border: 2px solid #262544;
+  border-radius: 15px;
+  background-color: #2d2d3a;
+  color: white;
+  font-size: 15px;
+  padding: 7px 0 0 0;
+  width: 125px;
 }
 .top-bar .container .container-center {
   display: flex;
@@ -187,7 +181,7 @@ body {
 }
 .top-bar .container .container-center span {
   cursor: pointer;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 .top-bar .container .container-center span:last-child {
   margin-right: 0;
@@ -213,6 +207,7 @@ body {
   align-items: center;
   flex-direction: row;
   background-color: #fff;
+  background-image: url("http://www.kimripleyobrien.com/uploads/5/0/3/0/5030803/header_images/1490129468.jpg");
   border-bottom: 2px solid gray;
   width: 100%;
   height: 120px;
@@ -280,6 +275,7 @@ body {
   flex-direction: row;
   color: #fff;
   background-color: #333;
+  border-radius: 25px;
   margin: 0 5px;
   padding: 2px 10px;
   font-size: 12px;

@@ -3,13 +3,14 @@
 @import "./footer";
 @import "./components/Carousel/Carousel";
 
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic,900");
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 
 * {
   box-sizing: border-box;
 }
-  
-html, 
+
+html,
 body {
   margin: 0;
   padding: 0;
@@ -17,13 +18,12 @@ body {
 
 body {
   .flex(none, center, column);
-  background-color: @lambda-times-color-background;
-  color: @lambda-times-color-primary;
-  font-family: "PT Sans", sans-serif;
+  background-color: @color-background;
+  color: @color-primary;
+  font-family: "Lato", sans-serif;
 }
 
 @import "./components/TopBar/TopBar";
 @import "./components/Header/Header";
 @import "./components/Tabs/Tabs";
 @import "./components/Cards/Cards";
-
