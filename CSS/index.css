@@ -24,6 +24,40 @@ footer nav p {
   color: white;
   text-decoration: none;
 }
+.sign-in {
+  box-sizing: content-box;
+  width: 100px;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 10px;
+  animation-name: background-color;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes background-color {
+  0% {
+    background-color: #FF2E2E;
+  }
+  16.7% {
+    background-color: #FFD400;
+  }
+  33.3% {
+    background-color: #48FF00;
+  }
+  50% {
+    background-color: #FFD400;
+  }
+  66.9% {
+    background-color: #48FF00;
+  }
+  83.4% {
+    background-color: #4586FF;
+  }
+  100% {
+    background-color: #B22EFF;
+  }
+}
 * {
   box-sizing: border-box;
 }
