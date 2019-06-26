@@ -161,10 +161,6 @@ body {
   padding: 0;
 }
 body {
-  display: flex;
-  justify-content: none;
-  align-items: center;
-  flex-direction: column;
   background-color: #f1f1f1;
   color: #071622;
   font-family: "Lato", sans-serif;
@@ -266,7 +262,7 @@ body {
 }
 .header h1 {
   font-size: 60px;
-  font-family: Didot, serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   flex: 8;
   text-align: center;
