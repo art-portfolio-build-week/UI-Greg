@@ -10,7 +10,7 @@
  */
 footer {
   width: 100%;
-  background: gray;
+  background: #171d21;
 }
 footer nav {
   width: 90%;
@@ -108,6 +108,9 @@ footer nav p {
 * {
   box-sizing: border-box;
 }
+html {
+  border: 5px solid #405768;
+}
 html,
 body {
   margin: 0;
@@ -119,7 +122,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #f1f1f1;
-  color: #333;
+  color: #071622;
   font-family: "Lato", sans-serif;
 }
 .top-bar {
@@ -128,9 +131,9 @@ body {
   justify-content: center;
   align-items: none;
   flex-direction: row;
-  position: fixed;
+  border-right: #405768;
   height: 44px;
-  background-color: #333;
+  background-color: #171d21;
 }
 .top-bar .container {
   width: 100%;
@@ -210,8 +213,6 @@ body {
   background-image: url("http://www.kimripleyobrien.com/uploads/5/0/3/0/5030803/header_images/1490129468.jpg");
   border-bottom: 2px solid gray;
   width: 100%;
-  height: 120px;
-  margin-top: 44px;
   padding-bottom: 15px;
 }
 @media (min-width: 1280px) {
@@ -225,22 +226,13 @@ body {
   font-weight: bold;
   flex: 8;
   text-align: center;
-  color: #000;
+  color: #171d21;
 }
 .header span {
   align-self: flex-end;
   font-size: 11px;
   font-weight: bold;
   letter-spacing: 1px;
-}
-.header .date {
-  margin-left: 25px;
-  flex: 1;
-}
-.header .temp {
-  text-align: right;
-  margin-right: 25px;
-  flex: 1;
 }
 .tabs {
   border-bottom: 2px solid gray;
@@ -274,7 +266,7 @@ body {
   align-items: center;
   flex-direction: row;
   color: #fff;
-  background-color: #333;
+  background-color: #071622;
   border-radius: 25px;
   margin: 0 5px;
   padding: 2px 10px;
@@ -288,8 +280,8 @@ body {
 }
 .tabs .topics .active-tab {
   background-color: #fff;
-  color: #333;
-  border: 2px solid #333;
+  color: #071622;
+  border: 2px solid #071622;
 }
 .cards-container {
   display: flex;
@@ -318,7 +310,7 @@ body {
 }
 .cards-container .card .headline {
   font-size: 25px;
-  font-family: Didot, serif;
+  font-family: "Lato", sans-serif;
 }
 .cards-container .card .author {
   display: flex;

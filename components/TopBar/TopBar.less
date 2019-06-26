@@ -1,15 +1,17 @@
 .top-bar {
   .width-100();
   .flex(center);
-  position: fixed;
+  border-right: @color-accent;
+  // position: fixed;
   height: 44px;
-  background-color: @color-primary;
+  background-color: @color-black;
   .container {
     .width-100();
     .flex();
     color: @color-white;
     letter-spacing: 1px;
     padding: 0 10px;
+
     @media (min-width: 1280px) {
       width: 1280px;
     }
@@ -24,17 +26,16 @@
         font-family: Lobster, cursive;
         font-weight: bold;
       }
-
     }
-    input{
-    border: 2px solid rgb(38, 37, 68);
-    border-radius: 15px;
-    background-color: rgb(45, 45, 58);
-    color: white;
-    font-size: 15px;
-    padding: 7px 0 0 0;
-    width: 125px;
-}
+    input {
+      border: 2px solid rgb(38, 37, 68);
+      border-radius: 15px;
+      background-color: rgb(45, 45, 58);
+      color: white;
+      font-size: 15px;
+      padding: 7px 0 0 0;
+      width: 125px;
+    }
     .container-center {
       .flex(center, center);
       flex: 3;
