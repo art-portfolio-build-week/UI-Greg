@@ -181,9 +181,92 @@ body {
   height: 100px;
   flex-direction: column;
   background-color: #171d21;
-  /*  @media (min-width: 1920px) {
-    width: 1920px;
-  } */
+  /*  @media (max-width: 500px) {
+    .top-bar {
+      width: 100%;
+      height: 180px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .top-bar {
+      width: 100%;
+      flex-direction: row;
+      height: 180px;
+    }
+  }
+
+  @media (max-width: 326px) {
+  .top-bar {
+    width: 100%;
+    height: 180px;
+  }
+} */
+  /* 
+@media (max-width: 800px) {
+  .top-bar .container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .top-bar .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 326px) {
+  .top-bar .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .top-bar .container-left {
+    margin: 0 20px 0 0;
+  }
+} */
+  /* @media (max-width: 800px) {
+  .top-bar .container {
+    width: 100%;
+    flex-direction: column;
+    padding: 0 auto;
+  }
+}
+@media (max-width: 500px) {
+  .top-bar .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 326px) {
+  .top-bar .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .top-bar .container-left {
+    margin: 0 20px 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-bar .container-center .container-left .container-right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+@media (max-width: 326px) {
+  .top-bar .container-center .container-left .container-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+} */
 }
 .top-bar .container {
   width: 100%;
@@ -195,23 +278,9 @@ body {
   letter-spacing: 1px;
   padding: 0 10px;
 }
-@media (max-width: 500px) {
-  .top-bar .top-bar {
-    width: 100%;
-    height: 180px;
-  }
-}
-@media (max-width: 800px) {
-  .top-bar .top-bar {
-    width: 100%;
-    flex-direction: row;
-    height: 180px;
-  }
-}
-@media (max-width: 326px) {
-  .top-bar .top-bar {
-    width: 100%;
-    height: 180px;
+@media (min-width: 1920px) {
+  .top-bar {
+    width: 1920px;
   }
 }
 .top-bar .top-bar .container {
@@ -221,30 +290,6 @@ body {
   flex-direction: row;
   justify-content: center;
   padding: 0 auto;
-}
-@media (max-width: 800px) {
-  .top-bar .top-bar .container {
-    width: 100%;
-    flex-direction: column;
-    padding: 0 auto;
-  }
-}
-@media (max-width: 500px) {
-  .top-bar .top-bar .container {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-@media (max-width: 326px) {
-  .top-bar .top-bar .container {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-@media (max-width: 800px) {
-  .top-bar .top-bar .container-left {
-    margin: 0 20px 0 0;
-  }
 }
 .top-bar .container-left {
   display: flex;
@@ -300,45 +345,6 @@ body {
 }
 .top-bar .container-right span {
   cursor: pointer;
-}
-@media (max-width: 800px) {
-  .top-bar .top-bar .container {
-    width: 100%;
-    flex-direction: column;
-    padding: 0 auto;
-  }
-}
-@media (max-width: 500px) {
-  .top-bar .top-bar .container {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-@media (max-width: 326px) {
-  .top-bar .top-bar .container {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-@media (max-width: 800px) {
-  .top-bar .top-bar .container-left {
-    margin: 0 20px 0 0;
-  }
-}
-@media (max-width: 500px) {
-  .top-bar .top-bar .container-center .container-left .container-right {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-}
-@media (max-width: 326px) {
-  .top-bar .top-bar .container-center .container-left .container-right {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
 }
 .mask {
   width: 30px;
@@ -488,6 +494,7 @@ body {
   letter-spacing: 1px;
   font-weight: bold;
 }
+/* 
 .font-normal {
   font-size: 18px;
 }
@@ -561,6 +568,9 @@ body {
     padding: 0 auto;
   }
 }
+
+
+ */
 .home .intro {
   /* .backgrounded {
       .background();
