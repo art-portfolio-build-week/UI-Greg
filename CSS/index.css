@@ -313,6 +313,7 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
   font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 .tabs .topics .tab {
   display: flex;
@@ -336,6 +337,20 @@ body {
   background-color: #fff;
   color: #071622;
   border: 2px solid #071622;
+}
+.signbtn {
+  color: #fff;
+  box-sizing: content-box;
+  padding: 2px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #d1d141;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
 .cards-container {
   display: flex;
