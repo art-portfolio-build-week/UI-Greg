@@ -20,6 +20,13 @@ footer nav p {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  footer nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
 .sign-in:hover {
   box-sizing: content-box;
   width: 100px;
@@ -211,8 +218,9 @@ body {
 }
 .top-bar .container-left span {
   cursor: pointer;
-  margin-right: 10%;
-  font-size: 20px;
+  margin-right: 7%;
+  color: white;
+  font-size: 40px;
   font-family: Lobster, cursive;
   font-weight: bold;
 }
@@ -231,11 +239,11 @@ body {
   align-items: center;
   flex-direction: row;
   flex: 3;
-  font-size: 9px;
+  font-size: 12px;
 }
 .top-bar .container-center span {
   cursor: pointer;
-  margin-right: 10%;
+  margin-right: 2%;
 }
 .top-bar .container-center span:last-child {
   margin-right: 0;
@@ -256,7 +264,7 @@ body {
   cursor: pointer;
 }
 .mask {
-  width: 35px;
+  width: 30px;
 }
 .header {
   display: flex;
@@ -346,7 +354,7 @@ body {
   border: 2px solid black;
   text-align: center;
   border-radius: 20px;
-  background-color: #d1d141;
+  background-color: #E3CF4B;
   font-size: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
