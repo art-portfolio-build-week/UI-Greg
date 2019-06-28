@@ -4,8 +4,7 @@
 @import "./animations";
 @import "./components/Carousel/Carousel";
 
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 * {
   box-sizing: border-box;
@@ -14,9 +13,10 @@
 html {
   border: 5px solid @color-accent;
 }
-
+   
 html,
 body {
+  
   margin: 0;
   padding: 0;
 }
@@ -33,3 +33,10 @@ body {
 @import "./components/Cards/Cards";
 @import "./home-page";
  
+@media (max-width: 800px) {
+  footer nav {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
